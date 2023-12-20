@@ -1,0 +1,64 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/891/original/davies-designs-studio-vz5Pr2WtXoA-unsplash_%281%29.jpg?1703091454);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: black;
+}
+header {
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+form {
+  padding: 30px;
+  box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.5);
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.instructions {
+  padding: 15px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 20px;
+  line-height: 20px;
+}
+
+.submit-button {
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  color: black;
+  padding: 14px 24px;
+  font-size: 16px;
+}
+
+.recipe {
+  font-size: 14px;
+  padding: 20px;
+  line-height: 6;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 20px 60px rgba(39, 33, 66, 0.3);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 120px;
+}
+
+a {
+  color: #885df1;
+}
