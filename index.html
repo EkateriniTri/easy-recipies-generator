@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="/src/style.css" />
     <title>AI easy recipies</title>
   </head>
@@ -11,7 +12,7 @@
       <header><h1>AI easy recipies</h1></header>
 
       <main>
-        <form>
+        <form id="recipe-generator-form">
           <input
             type="text"
             placeholder="Enter the ingredient of the recipe you want"
@@ -21,11 +22,7 @@
             class="instructions" />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recipe">
-          the recipe will be here
-          <br />
-          more will be here as well
-        </div>
+        <div class="recipe" id="recipe"></div>
       </main>
       <footer>
         This AI project was coded by Katerina Tri and is
