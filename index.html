@@ -13,19 +13,23 @@
       <header><h1>AI easy recipies</h1></header>
 
       <main>
-        <form id="recipe-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the ingredient of the recipe you want"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions" />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-wrapper">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the ingredient of the recipe you want"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions" />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="help">i.e flour,almond,tomatoes etc</div>
+        </div>
         <div class="recipe" id="recipe"></div>
       </main>
+
       <footer>
         This AI project was coded by Katerina Tri and is
         <a
